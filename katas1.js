@@ -20,10 +20,20 @@ function evensToTwenty() {
    /* Your code goes below
    Write a for or a while loop
    return the result */
+
+   let parMatriz = []
+   let cont = 2
+
+   while (cont <= 20) {
+     parMatriz.push(cont)
+     cont += 2
+   }
+
+   return parMatriz
   
 }
 
-//call function evensToTwenty
+console.log(evensToTwenty())//call function evensToTwenty
 
 function oddsToTwenty() {
     
