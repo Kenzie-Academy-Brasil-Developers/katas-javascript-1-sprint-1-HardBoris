@@ -3,10 +3,17 @@ function oneThroughTwenty() {
    /* Your code goes below
    Write a for or a while loop
    return the result*/
-    
+
+    let miMatriz = []
+
+    for (let i = 1; i <= 20; i++) {
+      miMatriz.push(i)
+    }
+
+    return miMatriz
 }
 
-//call function oneThroughTwenty
+console.log(oneThroughTwenty())//call function oneThroughTwenty
 
 function evensToTwenty() {
     
