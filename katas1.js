@@ -69,9 +69,7 @@ console.log(multiplesOfFive())//call function multiplesOfFive
 
 function squareNumbers() {
     
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+ /* Retorna os quadrados perfeitos entre 1 e 100 */
 
   let sqMatriz = []
 
@@ -87,12 +85,20 @@ console.log(squareNumbers())//call function squareNumbers
 
 function countingBackwards() {
     
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  /* Retornar os números em contagem regresiva
+     20 até 1 */
+
+  let miRevMatriz = []
+
+    for (let i = 20; i > 0; i--) {
+      miRevMatriz.push(i)
+    }
+
+    return miRevMatriz
+
 }
 
-//call function countingBackwards
+console.log(countingBackwards())//call function countingBackwards
 
 function evenNumbersBackwards() {
     
