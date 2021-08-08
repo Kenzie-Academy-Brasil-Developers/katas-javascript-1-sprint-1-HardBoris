@@ -121,12 +121,22 @@ console.log(evenNumbersBackwards())//call function evenNumbersBackwards
 
 function oddNumbersBackwards() {
     
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+ /* Retorna os números ímpares entre 20 e 1
+    em contagem regressiva */
+
+  let impRevMatriz = []
+   let idx = 19
+
+   while (idx > 0) {
+     impRevMatriz.push(idx)
+     idx -= 2
+   }
+
+   return impRevMatriz
+
 }
 
-//call function oddNumbersBackwards
+console.log(oddNumbersBackwards())//call function oddNumbersBackwards
 
 function multiplesOfFiveBackwards() {
     
