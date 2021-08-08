@@ -85,8 +85,8 @@ console.log(squareNumbers())//call function squareNumbers
 
 function countingBackwards() {
     
-  /* Retornar os números em contagem regresiva
-     20 até 1 */
+  /* Retornar os números do 20 até 1
+     em contagem regressiva */
 
   let miRevMatriz = []
 
@@ -102,12 +102,22 @@ console.log(countingBackwards())//call function countingBackwards
 
 function evenNumbersBackwards() {
     
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+ /* Retorna os números pares entre 20 e 1
+    em contagem regressiva*/
+
+  let parRevMatriz = []
+   let cont = 20
+
+   while (cont > 0) {
+     parRevMatriz.push(cont)
+     cont -= 2
+   }
+
+   return parRevMatriz
+
 }
 
-//call function evenNumbersBackwards
+console.log(evenNumbersBackwards())//call function evenNumbersBackwards
 
 function oddNumbersBackwards() {
     
