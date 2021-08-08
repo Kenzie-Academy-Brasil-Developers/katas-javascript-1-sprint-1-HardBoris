@@ -140,12 +140,22 @@ console.log(oddNumbersBackwards())//call function oddNumbersBackwards
 
 function multiplesOfFiveBackwards() {
     
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+ /* Retorna os múltiplos de 5 entre 100 e 5
+    em contagem regressiva */
+
+  let mulRevMatriz = []
+   let fiv = 100
+
+   while (fiv >= 5) {
+     mulRevMatriz.push(fiv)
+     fiv -= 5
+   }
+
+   return mulRevMatriz
+
 }
 
-//call function multiplesOfFiveBackwards
+console.log(multiplesOfFiveBackwards())//call function multiplesOfFiveBackwards
 
 function squareNumbersBackwards() {
     
