@@ -1,6 +1,6 @@
 function oneThroughTwenty() {
     
-   /* Retornar os números de 1 a 20*/
+   /* Retornar os números de 1 a 20 */
 
     let miMatriz = []
 
@@ -159,9 +159,18 @@ console.log(multiplesOfFiveBackwards())//call function multiplesOfFiveBackwards
 
 function squareNumbersBackwards() {
     
-   /* Your code goes below
-  Write a for or a while loop
-  return the result */
+   /* Retorna os quadrados perfeitos
+      entre 100 e 1
+      em contagem regressiva */
+
+  let sqRevMatriz = []
+
+    for (let i = 10; i > 0; i--) {
+      sqRevMatriz.push(i**2)
+    }
+
+    return sqRevMatriz
+
 }
 
-//call function squareNumbersBackwards
+console.log(squareNumbersBackwards())//call function squareNumbersBackwards
