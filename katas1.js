@@ -1,8 +1,6 @@
 function oneThroughTwenty() {
     
-   /* Your code goes below
-   Write a for or a while loop
-   return the result*/
+   /* Retornar os números de 1 a 20*/
 
     let miMatriz = []
 
@@ -17,9 +15,7 @@ console.log(oneThroughTwenty())//call function oneThroughTwenty
 
 function evensToTwenty() {
     
-   /* Your code goes below
-   Write a for or a while loop
-   return the result */
+   /* Retornar os números pares entre 1 e 20 */
 
    let parMatriz = []
    let cont = 2
@@ -37,13 +33,21 @@ console.log(evensToTwenty())//call function evensToTwenty
 
 function oddsToTwenty() {
     
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  /* Retornar os números ímpares entre 1 e 20 */
+
+  let impMatriz = []
+   let idx = 1
+
+   while (idx < 20) {
+     impMatriz.push(idx)
+     idx += 2
+   }
+
+   return impMatriz
    
 }
 
-//call function oddsToTwenty
+console.log(oddsToTwenty())//call function oddsToTwenty
 
 function multiplesOfFive() {
     
