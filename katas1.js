@@ -72,10 +72,18 @@ function squareNumbers() {
  /* Your code goes below
   Write a for or a while loop
   return the result */
+
+  let sqMatriz = []
+
+    for (let i = 1; i <= 10; i++) {
+      sqMatriz.push(i**2)
+    }
+
+    return sqMatriz
     
 }
 
-//call function squareNumbers
+console.log(squareNumbers())//call function squareNumbers
 
 function countingBackwards() {
     
