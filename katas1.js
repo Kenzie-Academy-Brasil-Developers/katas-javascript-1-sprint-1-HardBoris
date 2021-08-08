@@ -51,13 +51,21 @@ console.log(oddsToTwenty())//call function oddsToTwenty
 
 function multiplesOfFive() {
     
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  /* Retornar os múltiplos de 5 entre 1 e 100 */
+
+  let mulMatriz = []
+   let fiv = 5
+
+   while (fiv <= 100) {
+     mulMatriz.push(fiv)
+     fiv += 5
+   }
+
+   return mulMatriz
 
 }
 
-//call function multiplesOfFive
+console.log(multiplesOfFive())//call function multiplesOfFive
 
 function squareNumbers() {
     
